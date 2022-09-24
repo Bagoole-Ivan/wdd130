@@ -15,7 +15,8 @@ Fonts are separated by a & */
   --paragraph-font: (font-family: Raleway, "Raleway", sans-serif;).
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #8D6A9F;  /* headlines on a white background */ 
+  
+  --headline-color-on-white:  #A99BB9;  /* headlines on a white background */ 
   --headline-color-on-color: #BB342F; /* headlines on a colored background */ 
   --paragraph-color-on-white: #CC6C3C; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #BB342F; /* paragraph text on a colored background */ 
