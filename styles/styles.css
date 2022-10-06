@@ -8,7 +8,7 @@ Fonts are separated by a & */
   --primary-color: #000000   ;
   --secondary-color: #CC6C3C ;
   --accent1-color: #FFFF00;
-  --accent2-color: #A99BB9;
+  --accent2-color: #00FF00;
 
   /* change the values below to your chosen font(s) */
   --heading-font: (font-family:"Bungee-spice", sans-serif;).
@@ -24,7 +24,14 @@ Fonts are separated by a & */
   --nav-link-color: #000000;
   --nav-background-color: #CC6C3C;
   --nav-hover-link-color: #A99BB9;
-  --nav-hover-background-color: #00FF00;
+  --nav-hover-background-color:   #00FF00
+  header
+  nav a:hover
+  .book, .join
+  .book:hover, .join:hover
+  #background
+  .msg
+  footer;
 }
 
 
