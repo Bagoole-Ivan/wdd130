@@ -1,0 +1,21 @@
+#background {
+    height: 725px;
+    background-color: #000000;
+    color: #BB342F;
+}
+body {
+    background-color: #000000;
+    color: #BB342F;
+    padding-inline: 2;
+}
+header {
+    background-color: #000000;
+    color: #BB342F;
+    size: 0em;
+    padding: auto;
+}
+footer {
+    background-color: #FFFF00;
+    color: #000000;
+}
+
