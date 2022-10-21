@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Lobster&display=swap');
+
+body {
+    background-color: white;
+    color: #BB342F;
+
+}
+.cherry_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img {
+    position: relative;
+}
+h1 {
+    color: #000000;
+    position: absolute;
+    right: 150px;
+    left: 450px;
+    bottom: 300px;
+    top: 150px;
+    background-color: white;
+    size: 500px;
+}
+h2 {
+    color: #BB342F;
+    position: relative;
+    background-color: gray;
+    size: 100em;
+}
+
+
