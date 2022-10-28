@@ -71,6 +71,8 @@
   display: block;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+  grid-column: 2;
+  grid-row: 3;
 }
 .red3 {
   width: 100%; 
@@ -99,6 +101,8 @@
   /* This is the parent of the activity 4 boxes. */
   display: block;
   grid-template-columns: 1fr 1fr;
+  grid-column: 2;
+  grid-row: 3;
 }
 .red4 {
   width: 400px; 
