@@ -128,7 +128,7 @@
         Moroni Technologies ltd
       </p>
       <div class="button-box">
-        <a class="order" href="rates.html">Place your order Now</a>
+        <a class="order" href="about_us.html">Place your order Now</a>
       </div>
       <h1 class="home-title">We add value to your work</h1>
       <h4>We grow and win every day by helping you win</h4>
@@ -179,7 +179,33 @@
       <p>Images for the Page 3</p>
         <img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg" >
         <p>Some of the laptops shown above and below</p>
-        <img src="https://media.istockphoto.com/id/962173598/photo/laptop-in-forest-area-with-copy-space.jpg?s=1024x1024&w=is&k=20&c=9NreCEQ_SulaL6RUEhEcHElaj17d3dSoPoiK4U_4cq4=" alt="Some of our laptops">
+        <img src="https://cdn.pixabay.com/photo/2016/06/28/05/10/laptop-1483974_960_720.jpg" alt="Some of our laptops">
+      
+        <p>
+          You can contact us below
+        </p>
+
+        <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                  <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                  </li>
+                  <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email" />
+                  </li>
+                  <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  </li>
+                  <li class="button">
+                    <button type="submit">Send your message</button>
+                  </li>
+                </ul>
+            </form>
+
       </ul>
       <hr>
       <h2>
@@ -200,6 +226,23 @@
       
         <img src="https://learn.g2crowd.com/hs-fs/hubfs/how-to-wireframe.png?width=866" alt="page 3 wireframe">
     </main>
+    <script>
+      // get the feedback div element so we can do something with it.
+      const feedbackElement = document.getElementById('feedback');
+      // get the form so we can read what was entered in it.
+      const formElement = document.forms[0];
+      // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+      formElement.addEventListener('submit', function(e) {
+          // stop the form from doing the default action.
+          e.preventDefault();
+          // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+          feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+          // make the feedback element visible.
+          feedbackElement.style.display = "block";
+          // add a class to move everything down so our message doesn't cover it.
+          document.body.classList.toggle('moveDown');
+      });
+  </script>
   </body>
 
 </html>
