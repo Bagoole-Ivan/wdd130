@@ -123,6 +123,7 @@ nav {
 }
 .dell-card {
   margin-left: 300px;
+  margin-bottom: 10px;
   width: 100px;
   height: 100px;
   display: grid;
