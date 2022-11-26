@@ -52,11 +52,23 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
+#logo_link {
+  width: 20px;
+  align-self: left;
+}
+.logo {
+  width: 300px;
+  height: 300px;
+  align-content: flex-start;
+  padding: 0%;
+  content: unset;
+}
 header {
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
+  display: grid;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -104,11 +116,28 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  margin-left: 700px;
+}
+.it-image {
+  display: grid;
+}
+.dell-card {
+  margin-left: 300px;
+  width: 100px;
+  height: 100px;
+  display: grid;
+}
+.msg {
+  margin-right: 900px;
 }
 nav  {
   list-style-type: none;
   display: flex;
 
+}
+footer {
+  display: block;
+  margin-bottom: 10px;
 }
 nav a {
   padding:1em;
