@@ -5,104 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Some of the products you will find with us</title>
-        <link rel="stylesheet" href="styles/site_plan.css">
-        <style>
-            body {
-                font-family: Arial;
-                margin: 0;
-              }
-              
-              * {
-                box-sizing: border-box;
-              }
-              
-              img {
-                vertical-align: middle;
-              }
-              
-              /* Position the image container (needed to position the left and right arrows) */
-              .container {
-                position: relative;
-              }
-              
-              /* Hide the images by default */
-              .mySlides {
-                display: none;
-              }
-              
-              /* Add a pointer when hovering over the thumbnail images */
-              .cursor {
-                cursor: pointer;
-              }
-              
-              /* Next & previous buttons */
-              .prev,
-              .next {
-                cursor: pointer;
-                position: absolute;
-                top: 40%;
-                width: auto;
-                padding: 16px;
-                margin-top: -50px;
-                color: white;
-                font-weight: bold;
-                font-size: 20px;
-                border-radius: 0 3px 3px 0;
-                user-select: none;
-                -webkit-user-select: none;
-              }
-              
-              /* Position the "next button" to the right */
-              .next {
-                right: 0;
-                border-radius: 3px 0 0 3px;
-              }
-              
-              /* On hover, add a black background color with a little bit see-through */
-              .prev:hover,
-              .next:hover {
-                background-color: rgba(0, 0, 0, 0.8);
-              }
-              
-              /* Number text (1/3 etc) */
-              .numbertext {
-                color: #f2f2f2;
-                font-size: 12px;
-                padding: 8px 12px;
-                position: absolute;
-                top: 0;
-              }
-              
-              /* Container for image text */
-              .caption-container {
-                text-align: center;
-                background-color: #222;
-                padding: 2px 16px;
-                color: white;
-              }
-              
-              .row:after {
-                content: "";
-                display: table;
-                clear: both;
-              }
-              
-              /* Six columns side by side */
-              .column {
-                float: left;
-                width: 16.66%;
-              }
-              
-              /* Add a transparency effect for thumnbail images */
-              .demo {
-                opacity: 0.6;
-              }
-              
-              .active,
-              .demo:hover {
-                opacity: 1;
-              }
-        </style>
+        <link rel="stylesheet" href="styles/moroni.css">
     </head>
     <body>
         <div id="content">
@@ -193,62 +96,26 @@
             </div>
             <main class="its-image">
                 <p>We have enjoyed the fruit and many have likewise. We still want more to Enjoy the fruit.</p>
-                <section class="hps-card">
-                    <img class="card-img" src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_960_720.jpg" alt="HP laptop">
-                    <h2>Hp Products</h2>
+                <section class="hps-card"><h2>Hp Products</h2>
                     <section class="msgs">
-                        <p>A very big look around leaves your best option for find services to us. Why continue with the hustle. You have got us as your technology service provider, supplier and partner. As partners, we forward to serving you as you offer us your esteemed orders and inquiries.</p>
+                        <p>Thinking of the latest Hp models of products or do you need an old fashioned one, we get you exactlyy what you need. Why continue with the hustle. You have got us as your technology service provider, supplier and partner. As partners, we forward to serving you as you offer us your esteemed orders and inquiries.</p>
                         <a class="order" href="about_us.html">Place your order Now</a>
                     </section>
                 </section>
-                <section class="dells-card">
-                    <img class="card-img" src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg" alt="Dell laptop">
-                    <h2>Dell Products</h2>
+                <section class="dells-card"><h2>Dell Products</h2>
                     <section class="msgs">
-                        <p>A very big look around leaves your best option for find services to us. Why continue with the hustle. You have got us as your technology service provider, supplier and partner. As partners, we forward to serving you as you offer us your esteemed orders and inquiries.</p>
+                        <p>Do you need a Dell Laptop or Desktop computer, we have a variety of these in our stock. Why continue with the hustle. You have got us as your technology service provider, supplier and partner. As partners, we forward to serving you as you offer us your esteemed orders and inquiries.</p>
                         <a class="order" href="about_us.html">Place your order Now</a>
                     </section>
                 </section>
                 <section class="printers-card">
-                    <img class="card-img" src="https://cdn.pixabay.com/photo/2016/12/16/06/56/printer-1910685_960_720.png" alt="Reciept printer, Printers and accessories">
                     <h2>Reciept Printers, Printers and Accessories</h2>
                     <section class="msgs">
-                        <p>A very big look around leaves your best option for find services to us. Why continue with the hustle. You have got us as your technology service provider, supplier and partner. As partners, we forward to serving you as you offer us your esteemed orders and inquiries.</p>
+                        <p>We have all brands of printers from HP, Canon, Kyocera, Samsung, Xerox etc. Why continue with the hustle. You have got us as your technology service provider, supplier and partner. As partners, we forward to serving you as you offer us your esteemed orders and inquiries.</p>
                         <a class="order" href="about_us.html">Place your order Now</a>
                     </section>
                 </section>
-                <script>
-                    let slideIndex = 1;
-                    showSlides(slideIndex);
-            
-                    // Next/previous controls
-                    function plusSlides(n) {
-                    showSlides(slideIndex += n);
-                    }
-            
-                    // Thumbnail image controls
-                    function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                    }
-            
-                    function showSlides(n) {
-                    let i;
-                    let slides = document.getElementsByClassName("mySlides");
-                    let dots = document.getElementsByClassName("demo");
-                    let captionText = document.getElementById("caption");
-                    if (n > slides.length) {slideIndex = 1}
-                    if (n < 1) {slideIndex = slides.length}
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex-1].style.display = "block";
-                    dots[slideIndex-1].className += " active";
-                    captionText.innerHTML = dots[slideIndex-1].alt;
-                    }
-                </script>
+                
             </main>
             <footer class="prods">
                 <p>Moroni Technologies Ltd &copy; 2022 - Bagoole Ivan</p>
@@ -268,5 +135,37 @@
                 </div>
             </footer>
         </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+            
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+        </script>
     </body>
 </html>
