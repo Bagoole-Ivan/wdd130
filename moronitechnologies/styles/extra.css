@@ -5,33 +5,63 @@ START grid layout extra credit
 * {
     box-sizing: border-box;
   }
+  body {
+  background-color: darkgray;
+}
   .grid1 {
+    display: grid;
+    grid-template-columns: repeat(1fr, 12);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding: 1rem;
+    border-color: black;
+    background-origin: padding-box;
     
   }
   
   .grid1 h1 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-color: black;
+    background-origin: padding-box;
+    margin-left: 600px;
     
   }
   
   .grid2 {
+    padding: 1rem;
+
+    color: antiquewhite;
+    border-color: black;
+
     
   }
   .grid2 h2 {
+    color: antiquewhite;
+    border-color: black;
     
   }
   .grid3 {
+    padding: 1rem;
+    background-color: greenyellow;
     
   }
   
   .grid3 h3 {
+    background-color: greenyellow;
     
   }
   
   .grid4 {
+    padding: 1rem;
     
   }
+section {
+  padding: 1rem;
+}
   
   .grid4 h2 {
+    padding: 1rem;
     
   }
   
@@ -54,14 +84,25 @@ START grid layout extra credit
   }
   
   fieldset > div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 01em;
+    align-items: center;
     
+    
+  }
+  fieldset {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
   }
   
   label {
+    align-items: right;
     
   }
   
   input {
+    align-items: left;
     
   }
   
